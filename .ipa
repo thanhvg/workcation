@@ -1,0 +1,7 @@
+ src/App.vue
+(pos 149 before "lex-shrink-0\"/>\n" after "    <div class=\""):overflow so only main will scroll on excess
+
+(pos 229 before "SearchFilters/>\n" after "      <main clas"):why overflow is needed here,
+|when removed all scrolls are gone
+|because we want the child to scroll itself on x
+
